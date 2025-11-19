@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Форма</title>
+    <link rel="stylesheet" href="l3.css">
+</head>
+<body class="root">
+<form method="post" action="/" class="forms">
+    <label>
+        <br />
+        <input placeholder="ФИО" required/>
+    </label><br />
+    <label>
+        <input type="tel" placeholder="Телефон" required/>
+    </label><br />
+    <label>
+        <input type="email" placeholder="Email" required/>
+    </label><br />
+    <label>
+        Дата рождения <br/>
+        <input type="date" required/>
+    </label><br />
+    <label>
+        <input type="radio" value="male" required/>
+        мужской</label>
+    <label>
+        <input type="radio" value="female" required/>
+        женский</label> <br />
+    <label>
+        <br />
+        <select required>
+            <option disabled>какой курс обучения</option>
+            <option value="1">1</option>
+            <option value="2" >2</option>
+            <option value="3" >3</option>
+            <option value="4" >4</option>
+        </select>
+    </label><br />
+    <label>
+        <textarea placeholder="О себе" required></textarea>
+    </label><br />
+    <label>
+        Ознокомился
+        <input type="checkbox" required>
+    </label><br />
+    <input type="submit" value="Отправить" />
+</form>
+</body>
+</html>
